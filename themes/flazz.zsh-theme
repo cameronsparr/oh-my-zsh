@@ -3,7 +3,7 @@ then CARETCOLOR="red"
 else CARETCOLOR="blue"
 fi
 
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%} *%{$fg_bold[cyan]%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[red]%} *%{$fg_bold[cyan]%}"
 
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
